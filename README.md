@@ -1,9 +1,9 @@
 # altstore-source
 
-Personal AltStore source.
+Source AltStore personnelle.
 
-Add it in AltStore: **Sources → + →**
+À ajouter dans AltStore : **Sources → + →**
 
 ```
-https://raw.githubusercontent.com/ytsefab/altstore-source/main/apps.json
+https://github.com/ytsefab/altstore-source/releases/latest/download/apps.json
 ```
