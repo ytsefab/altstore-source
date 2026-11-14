@@ -17,12 +17,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.1",
-          "buildVersion": "2",
+          "version": "1.2",
+          "buildVersion": "3",
           "date": "2026-11-14",
-          "localizedDescription": "Build v2",
-          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v2/ServerHub.ipa",
-          "size": 25492673,
+          "localizedDescription": "Le Dashboard et le widget montrent le solde disponible Pionex.",
+          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v4/ServerHub.ipa",
+          "size": 25494108,
           "minOSVersion": "26.0"
         }
       ],
