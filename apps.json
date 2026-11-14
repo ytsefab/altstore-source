@@ -1,0 +1,102 @@
+{
+  "name": "ytsefab Apps",
+  "subtitle": "My personal iOS apps",
+  "description": "Personal source for sideloading my apps with AltStore.",
+  "website": "https://github.com/ytsefab/altstore-source",
+  "tintColor": "#5C7AEA",
+  "apps": [
+    {
+      "name": "Pionex",
+      "bundleIdentifier": "com.pionexapp.PionexApp",
+      "developerName": "ytsefab",
+      "subtitle": "Trading bot dashboard",
+      "localizedDescription": "Track your Pionex bots and account history.",
+      "iconURL": "https://raw.githubusercontent.com/ytsefab/altstore-source/main/icons/PionexApp.png",
+      "tintColor": "#F59E0B",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-11-14",
+          "localizedDescription": "Build v1",
+          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v1/PionexApp.ipa",
+          "size": 2296979,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Pour joindre tes serveurs de la maison sur le réseau local : Ollama, qui rédige le plan de tes bots, et Yuvomi, qui garde l'historique de valeur du compte affiché dans Graphiques. Aucune donnée ne sort de ton réseau."
+        }
+      }
+    },
+    {
+      "name": "ServerHub",
+      "bundleIdentifier": "com.ytsefab.serverhub",
+      "developerName": "ytsefab",
+      "subtitle": "Your servers in your pocket",
+      "localizedDescription": "Monitor and manage your servers, with an SSH terminal and widgets.",
+      "iconURL": "https://raw.githubusercontent.com/ytsefab/altstore-source/main/icons/ServerHub.png",
+      "tintColor": "#10B981",
+      "category": "developer",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-11-14",
+          "localizedDescription": "Build v1",
+          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v1/ServerHub.ipa",
+          "size": 24209741,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "ServerHub utilise l'appareil photo pour scanner tes tickets, tes factures, les codes-barres des livres et disques, et les cartes de ta collection.",
+          "NSLocalNetworkUsageDescription": "ServerHub se connecte à vos serveurs (Proxmox, UniFi, Synology, Radarr) sur votre réseau local.",
+          "NSLocationWhenInUseUsageDescription": "ServerHub utilise ta position pour afficher la météo locale et situer tes tests de vitesse.",
+          "NSMicrophoneUsageDescription": "ServerHub utilise le micro pour dicter une dépense et pour enregistrer tes histoires à la voix.",
+          "NSPhotoLibraryAddUsageDescription": "ServerHub réenregistre dans ta photothèque les images retouchées par l'assistant.",
+          "NSPhotoLibraryUsageDescription": "ServerHub sauvegarde tes photos et vidéos sur ton NAS, à la maison et sur ton Wi-Fi uniquement.",
+          "NSSpeechRecognitionUsageDescription": "ServerHub transcrit ta voix pour pré-remplir une dépense."
+        }
+      }
+    },
+    {
+      "name": "YTSE Cleaner",
+      "bundleIdentifier": "com.ytse.cleaner",
+      "developerName": "ytsefab",
+      "subtitle": "Clean up your photo library",
+      "localizedDescription": "Finds duplicates, similar photos, screenshots and large videos.",
+      "iconURL": "https://raw.githubusercontent.com/ytsefab/altstore-source/main/icons/YTSECleaner.png",
+      "tintColor": "#3B82F6",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-11-14",
+          "localizedDescription": "Build v1",
+          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v1/YTSECleaner.ipa",
+          "size": 1015268,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "YTSE Cleaner analyse votre photothèque pour trouver les doublons, photos similaires, captures d'écran et vidéos volumineuses à supprimer."
+        }
+      }
+    }
+  ],
+  "news": []
+}
