@@ -18,11 +18,11 @@
       "versions": [
         {
           "version": "1.2",
-          "buildVersion": "3",
-          "date": "2026-11-14",
-          "localizedDescription": "Le Dashboard et le widget montrent le solde disponible Pionex.",
-          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v4/ServerHub.ipa",
-          "size": 25494108,
+          "buildVersion": "4",
+          "date": "2026-11-15",
+          "localizedDescription": "Build v5",
+          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v5/ServerHub.ipa",
+          "size": 25493702,
           "minOSVersion": "26.0"
         }
       ],
@@ -55,9 +55,9 @@
         {
           "version": "1.0",
           "buildVersion": "1",
-          "date": "2026-11-14",
-          "localizedDescription": "Build v2",
-          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v2/YTSECleaner.ipa",
+          "date": "2026-11-15",
+          "localizedDescription": "Build v5",
+          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v5/YTSECleaner.ipa",
           "size": 1015268,
           "minOSVersion": "17.0"
         }
@@ -66,35 +66,6 @@
         "entitlements": [],
         "privacy": {
           "NSPhotoLibraryUsageDescription": "YTSE Cleaner analyse votre photothèque pour trouver les doublons, photos similaires, captures d'écran et vidéos volumineuses à supprimer."
-        }
-      }
-    },
-    {
-      "name": "Pellicule",
-      "bundleIdentifier": "com.ytsefab.pellicule",
-      "developerName": "ytsefab",
-      "subtitle": "Appareil photo à filtres",
-      "localizedDescription": "17 filtres en direct, flou artistique (rond, bande ou IA qui détoure le sujet), filtre choisi par l'IA selon la scène, vignette, grain, minuteur et formats 4:3, 16:9, plein écran, 1:1 et 3:2. Tout est calculé sur le téléphone.",
-      "iconURL": "https://raw.githubusercontent.com/ytsefab/altstore-source/main/icons/Pellicule.png",
-      "tintColor": "#E8C07A",
-      "category": "photo-video",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "1.0",
-          "buildVersion": "1",
-          "date": "2026-11-14",
-          "localizedDescription": "Première version : filtres, flou IA, filtre IA et formats d'image.",
-          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v3/Pellicule.ipa",
-          "size": 197692,
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSCameraUsageDescription": "Pellicule a besoin de la caméra pour prendre des photos.",
-          "NSPhotoLibraryAddUsageDescription": "Pellicule enregistre tes photos dans ta galerie."
         }
       }
     }
