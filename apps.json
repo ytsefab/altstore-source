@@ -68,6 +68,35 @@
           "NSPhotoLibraryUsageDescription": "YTSE Cleaner analyse votre photothèque pour trouver les doublons, photos similaires, captures d'écran et vidéos volumineuses à supprimer."
         }
       }
+    },
+    {
+      "name": "Pellicule",
+      "bundleIdentifier": "com.ytsefab.pellicule",
+      "developerName": "ytsefab",
+      "subtitle": "Appareil photo à filtres",
+      "localizedDescription": "17 filtres en direct, flou artistique (rond, bande ou IA qui détoure le sujet), filtre choisi par l'IA selon la scène, vignette, grain, minuteur et formats 4:3, 16:9, plein écran, 1:1 et 3:2. Tout est calculé sur le téléphone.",
+      "iconURL": "https://raw.githubusercontent.com/ytsefab/altstore-source/main/icons/Pellicule.png",
+      "tintColor": "#E8C07A",
+      "category": "photo-video",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-11-14",
+          "localizedDescription": "Première version : filtres, flou IA, filtre IA et formats d'image.",
+          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v3/Pellicule.ipa",
+          "size": 197692,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Pellicule a besoin de la caméra pour prendre des photos.",
+          "NSPhotoLibraryAddUsageDescription": "Pellicule enregistre tes photos dans ta galerie."
+        }
+      }
     }
   ],
   "news": []
