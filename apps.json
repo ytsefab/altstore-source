@@ -18,11 +18,11 @@
       "versions": [
         {
           "version": "1.3",
-          "buildVersion": "11",
+          "buildVersion": "12",
           "date": "2026-11-28",
-          "localizedDescription": "Build v13",
-          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v13/ServerHub.ipa",
-          "size": 25785991,
+          "localizedDescription": "Build v14",
+          "downloadURL": "https://github.com/ytsefab/altstore-source/releases/download/v14/ServerHub.ipa",
+          "size": 25786929,
           "minOSVersion": "26.0"
         }
       ],
